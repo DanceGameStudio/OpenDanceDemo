@@ -2,7 +2,7 @@ import cv2
 import PoseEstimation
 
 if __name__ == '__main__':
-    capture = cv2.VideoCapture('Videos/Beispiel_01.mp4')
+    capture = cv2.VideoCapture('Videos/Beispiel_02.mp4')
     #capture = cv2.VideoCapture(0) # Cam
     pose_detector = PoseEstimation.PoseDetector(capture)
     flip = False
